@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: black;
+    list-style-type: none;
+}
+header{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    background-color: black;
+    z-index: 2;
+}
+#header{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+#logo{
+    position: relative;
+    width: 100%;
+    height: auto;
+    float: left;
+}
+#logo a{
+    color: rgb(236, 226, 226);
+    font-size: 40px;
+    text-decoration: none;
+}
+#menu{
+    position: relative;
+    width: 100%;
+    height: auto;
+    float: right;
+}
+#menu ul li{
+    display: inline-block;
+    margin: 16px 20px 0 20px;
+}
+#menu li a{
+    color: rgb(236, 226, 226);
+    font-size: 18px;
+    text-decoration: none;
+}
+#menu a:hover{
+    color: white;
+}
+#logo a:hover{
+    color: white;
+}
+section{
+    width: 100%;
+    position: relative;
+    height: auto;
+    z-index: 1;
+    padding-top: 100px;
+}
+.next-image{
+    width: 100%;
+    max-width: 880px;
+    height: 400px;
+}
+.button{
+    width: 80px;
+    height: 30px;
+}
+#menu-card{
+    margin-left: -15px;
+}
+.card-a{
+    margin-top: 50px;
+    width: 320px;
+    text-align: start;
+    position: relative;
+}
+#tatol{
+    float: left;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+#article{
+    float: right;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+#article li{
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+#article a{
+    text-decoration: none;
+}
+#article li:hover{
+    background-color: rgb(97, 97, 236);
+    color: white;
+}
+footer{
+    background-color: black;
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+#footer p{
+    color: white;
+    font-size: 15px;
+}
+#footer li{
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+}
+#footer li a{
+    color:  rgb(236, 226, 226);
+    font-size: 15px;
+    margin: 10px;
+}
+#footer{
+    padding: 20px;
+}

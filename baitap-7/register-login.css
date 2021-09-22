@@ -1,0 +1,168 @@
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    text-decoration: none;
+}
+#main{
+    padding: 0;
+    height: 100%;
+    overflow-y: scroll;
+}
+.register{
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+}
+#register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.register__text{
+    position: relative;
+}
+.register__form{
+    position: relative;
+}
+.table__password{
+    display: flex;
+}
+.table__reg{
+    padding: 10px 0;
+    display: flex;
+    position: relative;
+}
+.table__reg:last-child{
+    display: flex;
+    justify-content: center;
+}
+.table__reg i{
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    border-right: none;
+    font-size: 20px;
+    padding: 15px;
+}
+.table__reg i:last-child{
+     border-left: none;
+     border-right: 1px solid rgba(0, 0, 0, 0.7);
+}
+.table__reg-input{
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    border-left: none;
+    border-right: none;
+    height: auto;
+    width: 100%;
+    padding: 4px 10px;
+    transition: 0.5s;
+    outline: none;
+}
+.table__password-mr{
+    margin-left: 20px;
+}
+.table__reg-login{
+    width: 400px;
+}
+.table__reg-input1{
+    width: 100%;
+    border-right: 1px solid rgba(0, 0, 0, 0.7);
+}
+.table__sex{
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+    text-align: left;
+}
+.table__sex i{
+    font-size: 1.5rem;
+    padding: 0 10px;
+    float: left;
+}
+.table__sex-male, .table__sex-female{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.table__sex-female, .table__sex-male{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    width: 7rem;
+    padding: 5px;
+}
+.table__sex-female{
+    margin-left: 20px;
+}
+.table__reg-submit{
+    text-align: center;
+    padding: 3px;
+    width: 200px;
+}
+.register__changelogin-or{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.or__border{
+    width: 200px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.register__changelogin-or p{
+    margin: 0;
+    font-size: 20px;
+    padding: 0 5px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.register__changelogin{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+}
+.register__changelogin a{
+    color: red;
+}
+.table__login{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.table__reg-forgot{
+    color: red;
+}
+.table__reg-forgot:hover{
+    color: red;
+}
+.pass-re{
+    color: red;
+}
+@media screen and (max-width: 767px) {
+    #main{
+        overflow: auto;
+    }
+    .register__text h2{
+        font-size: 1.4rem;
+        transition: 0.5s;
+    }
+    .table__reg-login{
+        width: 250px;
+    }
+    .table__password{
+        display: block;
+    }
+    .table__password-mr{
+        margin: 0;
+    }
+    .table__reg-input1{
+        width: 100%;
+    }
+    .or__border{
+        width: 150px;
+    }
+    .table__sex-female, .table__sex-male{
+        width: 100%;
+    }
+}

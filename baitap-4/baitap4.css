@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+html{
+    background:linear-gradient(135deg, #f8cea7, rgb(203, 211, 175));
+}
+body{
+    margin-top: 100px;
+    display: inline-block;
+    width: 400px;
+    position: relative;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 10px;    
+    box-shadow: 0 1px 5px black;  
+}
+.logo{
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    background-color: rgb(213, 252, 146);
+    box-shadow: 0 1px 5px black;
+    border-radius: 10px 10px 0 0;
+}
+.logo .img{
+    display: inline-block;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: white;
+    top: 50px;
+    padding: 5px;
+    box-shadow: 0 1px 5px black;
+}
+.img img{
+    position: relative  ;
+    width: 100%;
+    height: auto;
+    border-radius: 100px;
+    z-index: 1;
+}
+.main{
+    box-shadow: 0 1px 5px black;
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 20px 0 0 0;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+}
+.add-sp{
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+}
+table{
+    margin-top: 20px;
+}
+table td{
+    padding: 10px;
+}
+.head{
+    text-align: left;
+    width: 10%;
+}
+.submit{
+    margin-top: 5px;
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    padding: 15px;
+    border: none;
+    border-radius: 0 0 10px 10px;
+    background-color: rgb(213, 252, 146);
+    box-shadow: 0 -1px 5px;
+}
+.number{
+    min-width: 70px;
+    width: 1vw;
+    border: none;
+}
+.last{
+    text-align: right;
+    width: 6%;
+}
+.last input{
+    text-align: right;
+}
+.body{
+    text-align: right;
+    width: 10%;
+}
+.button{
+    text-align: center;
+    padding: 0 5px;
+}
+.select{
+    width: 30px;
+    text-align: center;
+    margin: 0 5px;
+}
+.sum, .sum input{
+    width: 100%;
+    height: auto;
+    background-color: rgb(240, 239, 239);
+}
+.sum{
+    padding: 15px;
+}

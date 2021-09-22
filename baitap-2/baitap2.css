@@ -1,0 +1,24 @@
+.mr{
+    margin: 50px auto;
+}
+#button{
+    width: 5vw;
+    height: auto;    
+}
+#button button{
+    width: 100%;
+    height: auto;
+    font-size: medium;
+}
+#border{
+    width: 20vw;
+    height: 20vw;
+    display: none;
+}
+#running{
+    position: relative;
+}
+#running .add{
+    opacity: 0;
+    position: absolute;
+}

@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: black;
+    list-style-type: none;
+    text-decoration: none;
+}
+header{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    background-color: black;
+    z-index: 2;
+}
+#header{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+#logo{
+    position: relative;
+    width: 100%;
+    height: auto;
+    float: left;
+}
+#logo a{
+    color: rgb(236, 226, 226);
+    font-size: 40px;
+    text-decoration: none;
+}
+#menu{
+    position: relative;
+    width: 100%;
+    height: auto;
+    float: right;
+}
+#menu ul li{
+    display: inline-block;
+    margin: 16px 20px 0 20px;
+}
+#menu li a{
+    color: rgb(236, 226, 226);
+    font-size: 18px;
+    text-decoration: none;
+}
+#menu a:hover{
+    color: white;
+}
+#logo a:hover{
+    color: white;
+}
+section{
+    width: 100%;
+    position: relative;
+    height: auto;
+    z-index: 1;
+    padding-top: 100px;
+}
+#main{
+    width:  100%;
+    height: auto;
+    position: relative;
+}
+#slide .img-1{
+    height: 320px;
+}
+#slide{
+    max-width: 860px;
+    width:  100%;
+    height: auto;
+    text-align: center;
+    position: relative;
+    float: left;
+    margin-bottom: 40px;
+}
+#hot{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.img-2{
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    height: 155px;
+    position: relative;
+}
+.img-2:last-child{
+    margin-top: 10px;
+}
+#border{
+    width: 100%;
+    height: auto;
+    border-bottom: 10px solid rgb(243, 124, 13);
+    box-shadow: 0px 5px 5px  black;
+}
+.button{
+    width: 80px;
+    height: 30px;
+}
+#product{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+#product .product-img{
+    width: 100%;
+    max-width: 400px;
+    height: 250px;
+    position: relative;
+}
+.product{
+    margin-top: 20px;
+    position: relative;
+}
+footer{
+    background-color: black;
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+#footer p{
+    color: white;
+    font-size: 15px;
+}
+#footer li{
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+}
+#footer li a{
+    color:  rgb(236, 226, 226);
+    font-size: 15px;
+    margin: 10px;
+}
+#footer{
+    padding: 20px;
+}
+

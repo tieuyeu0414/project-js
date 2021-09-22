@@ -1,0 +1,350 @@
+*{
+    list-style-type: none;
+}
+header{
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: #eeeeee;
+    overflow: hidden;
+}
+/*--------------------------------------*/
+#menu{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    z-index: 10000;
+}
+.btn-menu{
+    float: right;
+    position: relative;
+    text-align: center;
+    border-radius: 100%;
+    padding: 15px;
+    background-color: #009FAA;
+    border: none;
+    z-index: 10000;
+    top: 25px;
+    right: 30px;
+}
+.span{
+    width: 27px;
+    height: 3px;
+    background-color: #ffffff;
+    margin: 5px 0;
+}
+.bg-menu{
+    float: right;
+    position: relative;
+    background-color: #009FAA;
+    text-align: center;
+    width: 35rem;
+    height: 35rem;
+    left: 80px;
+    border-radius: 0 0 0 100%;
+    overflow: hidden;
+    top: -100px;
+    transition: 0.2s;
+    display: none;
+}
+.menu{
+    display: block;
+    position: relative;
+    text-align: center;
+    padding-left: 0;
+    margin-top: 11rem;
+    margin-left: 8rem;
+}
+.li-menu{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+.txt-menu{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.txt-menu:hover{
+    color: white;
+    text-decoration: none;
+}
+@media all and (max-width: 616px){
+    .btn-menu{
+        top: 0;
+        right: 0;
+    }
+    .bg-menu{
+        width: 30rem;
+        height: 30rem;
+        transition: 0.4s;
+    }
+    .menu{
+        margin-top: 10rem;
+        margin-left: 6rem;
+        transition: none;
+    }
+}
+@media all and (max-width: 584px){
+    .bg-menu{
+        width: 25rem;
+        height: 25rem;
+        transition: 0.4s;
+    }
+    .menu{
+        margin-top: 9rem;
+        margin-left: 5rem;
+        transition: none;
+    }
+    .txt-menu{
+        font-size: 17px;
+        transition: 0s;
+        transition: none;
+    }
+}
+@media all and (max-width: 456px){
+    .bg-menu{
+        width: 25rem;
+        height: 25rem;
+        transition: 0.4s;
+    }
+    .menu{
+        margin-top: 6rem;
+        margin-left: 0rem;
+        transition: none;
+    }
+    .txt-menu{
+        font-size: 16px;
+        transition: none;
+    }
+}
+@media all and (max-width: 376px){
+    .bg-menu{
+        width: 20rem;
+        height: 20rem;
+        transition: 0.4s;
+    }
+    .menu{
+        margin-top: 5rem;
+        margin-left: -3rem;
+        transition: none;
+    }
+    .li-menu{
+        margin-top: 5px;
+        transition: none;
+    }
+    .txt-menu{
+        font-size: 15px;
+        transition: none;
+    }
+}
+@media all and (max-width: 328px){
+    .bg-menu{
+        width: 20rem;
+        height: 20rem;
+        transition: 0.4s;
+    }
+    .menu{
+        margin-top: 5rem;
+        margin-left: -2rem;
+        transition: none;
+    }
+    .li-menu{
+        margin-top: 0px;
+        transition: none;
+    }
+    .txt-menu{
+        font-size: 14px;
+        transition: none;
+    }
+}
+/*--------------------------------------*/
+.wave{
+    position: relative;
+    margin-top: 37rem;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+}
+/*--------------------------------------*/
+.article-1{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    position: relative;
+}
+.tittle{
+    display:inline-block;
+    max-width: 15rem;
+    height: auto;
+    border: 5px #009FAA solid;
+    border-radius: 2.2rem 0;
+    padding: 10px 10px;
+    text-align: center;
+    margin-top: 3rem;
+    position: relative;
+}
+.tittle h2, .tittle-1 h5{
+    font-weight: 600;
+    font-size: 25px;
+    color: #009FAA;
+    text-transform: uppercase;
+    position: relative;
+}
+.tittle-1 h5{
+    font-size: 18px;
+}
+/*----------------------------------------*/
+#product{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: 3rem;
+}
+.bor-product{
+    padding: 13px !important;
+}
+.border{
+    width: 20rem;
+    overflow: hidden;
+}
+.card-body{
+    padding: 0px !important;
+}
+.card-product{
+    width: 100% !important;
+}
+.zoom{
+    width: 100%;
+    height: 10rem;
+    position: relative;
+    overflow: hidden;
+}
+.card-img-top{
+    padding: 20px;
+    width: 55% !important;
+    transition: 0.8s;
+    z-index: 1;
+}
+.card-img-top:hover{
+    transform: scale(1.5);
+    cursor: pointer; 
+}
+.card-body{
+    padding: 15px !important;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.card-body h5{
+    margin-bottom: 0;
+}
+.tittle-1{
+    display:inline-block;
+    max-width: 15rem;
+    height: auto;
+    border: 5px #009FAA solid;
+    border-radius: 0 2.2rem;
+    padding: 10px 30px;
+    text-align: center;
+    margin-top: 2rem;
+    position: relative;
+    cursor: pointer;
+}
+.txt-article-1{
+    margin-top: 2rem;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.txt-article-1 h3{
+    font-size: 200%;
+}
+@media screen and (min-width: 2560px){
+    .tittle, .tittle-1{
+        max-width: none;
+    }
+    .tittle h2{
+        font-size: 50px;
+    }
+    .tittle-1 h5{
+        font-size: 25px;
+    }
+    .zoom{
+        height: 20rem;
+    }
+}
+@media screen and (max-width: 992px){
+    .zoom{
+        height: auto;
+    }
+    .card-img-top{
+        width: 100% !important;
+    }
+}
+@media screen and (max-width: 767px){
+    .zoom{
+        height: auto;
+    }
+    .card-img-top{
+        width: 100% !important;
+    }
+}
+@media screen and (max-width: 424px){
+    .zoom{
+        height: auto;
+    }
+    .card-img-top{
+        width: 100% !important;
+    }
+    .card-body h5{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 374px){
+    .zoom{
+        height: auto;
+    }
+    .card-img-top{
+        width: 100% !important;
+    }
+    .card-body h5{
+        font-size: 8px;
+    }
+}
+@media screen and (max-width: 319px){
+    html{display: none;}
+}
+/*-----------------------------*/
+#text{
+    margin-top: 8rem;
+    width: 100%;
+    height: auto;
+    background-color: #444957;
+}
+.text{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.text img, .text h4, .text p{
+    display: inline-block;
+    position: relative;
+    color: white;
+}
+.text img{
+    border: 1px solid black;
+    border-radius: 100%;
+    width: 55px;
+}
+.text h4{
+    margin-bottom: 0;
+}
+.text p{
+    margin: 0;
+}
+/*------------------------------------------*/
+#newsletter{
+    width: 100%;
+    height: auto;
+}
